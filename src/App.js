@@ -15,6 +15,8 @@ import styles from './appStyles.module.css';
 import FormHandling from './components/FormHandling';
 import FragmentDemo from './components/FragmentDemo';
 import MemoDemo from './components/MemoDemo';
+import PortalDemo from './components/PortalDemo';
+import ClickCounter from './components/ClickCounter'
 
 function App() {
   return (
@@ -50,7 +52,9 @@ function App() {
       <h1 className={styles.success}>Success</h1> */}
       {/* <FormHandling /> */}
       {/* <FragmentDemo></FragmentDemo> */}
-      <MemoDemo></MemoDemo>
+      {/* <MemoDemo></MemoDemo> */}
+      {/* <PortalDemo /> */}
+      <ClickCounter></ClickCounter>
     </div>
   );
 }
